@@ -1,0 +1,22 @@
+******* Datasets section ************
+#1         XRD
+  data   none
+  form    4
+  rang    0.51 83.9 0.0036
+  cheb    1
+  wave    0.56
+  esdw    0.0001
+  beam    S
+  geom    transmDS 0.0
+******* Structures section ************
+%1        PLOT1D_NAME_SEED
+  db03    ./DISTANCES/SAMPTO120A/PbS_r
+  nclu    44
+  shap    SPH
+  parx    PAR_FILE_NAME
+******* Refinement section ************
+  simu    1
+  rfil    PbS.ref
+  calm    1
+  outs    OUTPUT_NAME_SEED
+  rpdf    0

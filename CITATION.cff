@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+title: 'QDots-sizer '
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Lucia
+    family-names: Allara
+    email: lallara@uninsubria.it
+    affiliation: University of Insubria (IT)
+    orcid: 'https://orcid.org/0009-0004-1832-094X'
+  - given-names: Federica
+    family-names: Bertolotti
+    email: federica.bertolotti@uninsubria.it
+    orcid: 'https://orcid.org/0000-0002-6001-9040'
+    affiliation: University of Insubria (IT)
+  - given-names: Antonietta
+    family-names: Guagliardi
+    email: antonella.guagliardi@ic.cnr.it
+    affiliation: National Research Council - Crystallography Institute
+    orcid: 'https://orcid.org/0000-0001-6390-2114'
+repository-code: 'https://github.com/DeByeUSerSYstem/QDots-sizer'
+abstract: >-
+  Deep Learning model for the automated size classification
+  of Quantum Dots in both colloidal and dry states from
+  Wide-Angle x-ray Total Scattering  data.
+keywords:
+  - quantum dots
+  - machine learning
+  - sizing
+  - dep learning
+license: GPL-3.0
+version: '1.0'
+date-released: '2023-10-11'

@@ -80,3 +80,5 @@ and Antonella Guagliardi
 *e-mail of repo owner*: lallara@uninsubria.it, lucia.allara@gmail.com
 
 *License*: GPL-3.0, Please, acknowledge use of this work with the apropiate citation.
+
+*Repo citation*: you can find it on the righ bar undet "Cite this repository" section.

@@ -46,7 +46,7 @@ At the end of the procedure, you will find a new file.xy with the predicted size
 containing your pattern as the the algorithm sees it. You will also be presented with the option 
 of saving tahe plot of this.
 
-_Arguments_<br/>
+_Argument_<br/>
 `path_to_diffractogram`: compulsory<br/>
 Relative of Full path of the diffractogram you wish to have a size prediction on.<br/>
 Data have to be in a two-columns xy file structure: the first column containing 2θ angles,
@@ -65,6 +65,9 @@ Any line beginning with `#` is automatically skipped by the program.
 `--help`<br/>
 Shows the automatic help topic.
 
+### Suggestion and limit on the data 
+_section under preparation_
+
 
 ## Attribution
 *Authors*<br/>
@@ -76,4 +79,4 @@ and Antonella Guagliardi
 
 *e-mail of repo owner*: lallara@uninsubria.it, lucia.allara@gmail.com
 
-*License*: GPL-3.0 and data policies of Nature Partner Journal Computational Materials. Please, acknowledge use of this work with the apropiate citation.
+*License*: GPL-3.0, Please, acknowledge use of this work with the apropiate citation.

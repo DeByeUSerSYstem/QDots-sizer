@@ -88,5 +88,5 @@ and Antonella Guagliardi.
 
 *License:* GPL-3.0 – Please, acknowledge use of this work with the appropriate citation.
 
+*Citation:* you can find it on the righ bar under the *"Cite this repository"* section.
 *Preprint on ChemRxiv*: https://doi.org/10.26434/chemrxiv-2023-127s9<br/>
-*Repo citation:* you can find it on the righ bar under "Cite this repository" section.

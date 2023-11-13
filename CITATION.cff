@@ -20,7 +20,7 @@ authors:
     email: antonella.guagliardi@ic.cnr.it
     affiliation: National Research Council - Crystallography Institute
     orcid: 'https://orcid.org/0000-0001-6390-2114'
-doi: 'https://doi.org/10.26434/chemrxiv-2023-127s9'
+doi: '10.26434/chemrxiv-2023-127s9'
 repository-code: 'https://github.com/DeByeUSerSYstem/QDots-sizer'
 abstract: >-
   Deep Learning model for the automated size classification
@@ -33,3 +33,4 @@ keywords:
 license: GPL-3.0
 version: '1.0'
 date-released: '2023-10-11'
+Allara, L., Bertolotti, F., & Guagliardi, A. (2023). QDots-sizer  (Version 1.0) [Computer software]. https://doi.org/https://doi.org/10.26434/chemrxiv-2023-127s9

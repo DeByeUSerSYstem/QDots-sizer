@@ -69,7 +69,10 @@ Shows the automatic help topic.
 The model 
 
 _section under preparation_
-
+tipo Qmin 4, 2th sarebbe 70?
+noise mglio se basso
+solventi?
+...
 
 
 ## Attribution
@@ -80,7 +83,7 @@ and Antonella Guagliardi.
 
 *Version:* 1.0 / October, 2023
 
-*e-mail of repo owner*: lallara@uninsubria.it, lucia.allara@gmail.com
+*e-mail of repo owner*: lallara@uninsubria.it, lucia.allara@gmail.com<br/>
 *e-mail of contributors*: federica.bertolotti@uninsubria.it, antonella.guagliardi@ic.cnr.it
 
 *License:* GPL-3.0 – Please, acknowledge use of this work with the apropiate citation.

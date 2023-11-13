@@ -20,6 +20,10 @@ authors:
     email: antonella.guagliardi@ic.cnr.it
     affiliation: National Research Council - Crystallography Institute
     orcid: 'https://orcid.org/0000-0001-6390-2114'
+identifiers:
+  - type: doi
+    value: 'https://doi.org/10.26434/chemrxiv-2023-127s9'
+    description: Preprint on ChemRxiv
 repository-code: 'https://github.com/DeByeUSerSYstem/QDots-sizer'
 abstract: >-
   Deep Learning model for the automated size classification
@@ -27,9 +31,8 @@ abstract: >-
   Wide-Angle x-ray Total Scattering  data.
 keywords:
   - quantum dots
-  - machine learning
+  - deep learning
   - sizing
-  - dep learning
 license: GPL-3.0
 version: '1.0'
 date-released: '2023-10-11'

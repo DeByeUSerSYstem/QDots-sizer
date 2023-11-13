@@ -65,20 +65,25 @@ Any line beginning with `#` is automatically skipped by the program.
 `--help`<br/>
 Shows the automatic help topic.
 
-### Suggestion and limit on the data 
+### Suggestions and limits on the data 
+The model 
+
 _section under preparation_
 
 
-## Attribution
-*Authors*<br/>
-Lucia Allara <a href="https://github.com/goatworks">@goatworks</a>,
-Federica Bertolotti<a href="https://github.com/febertol">@febertol</a>,
-and Antonella Guagliardi
 
-*Version*: 1.0 / October, 2023
+## Attribution
+*Authors:*
+Lucia Allara <a href="https://github.com/goatworks">@goatworks</a>,
+Federica Bertolotti <a href="https://github.com/febertol">@febertol</a>,
+and Antonella Guagliardi.
+
+*Version:* 1.0 / October, 2023
 
 *e-mail of repo owner*: lallara@uninsubria.it, lucia.allara@gmail.com
+*e-mail of contributors*: federica.bertolotti@uninsubria.it, antonella.guagliardi@ic.cnr.it
 
-*License*: GPL-3.0, Please, acknowledge use of this work with the apropiate citation.
+*License:* GPL-3.0 – Please, acknowledge use of this work with the apropiate citation.
 
-*Repo citation*: you can find it on the righ bar undet "Cite this repository" section.
+*Preprint on ChemRxiv*: https://doi.org/10.26434/chemrxiv-2023-127s9
+*Repo citation:* you can find it on the righ bar under "Cite this repository" section.

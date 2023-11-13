@@ -20,10 +20,7 @@ authors:
     email: antonella.guagliardi@ic.cnr.it
     affiliation: National Research Council - Crystallography Institute
     orcid: 'https://orcid.org/0000-0001-6390-2114'
-identifiers:
-  - type: doi
-    value: 'https://doi.org/10.26434/chemrxiv-2023-127s9'
-    description: Preprint on ChemRxiv
+doi: 'https://doi.org/10.26434/chemrxiv-2023-127s9'
 repository-code: 'https://github.com/DeByeUSerSYstem/QDots-sizer'
 abstract: >-
   Deep Learning model for the automated size classification

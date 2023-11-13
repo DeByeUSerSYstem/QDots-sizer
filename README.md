@@ -86,7 +86,7 @@ and Antonella Guagliardi.
 *e-mail of repo owner*: lallara@uninsubria.it, lucia.allara@gmail.com<br/>
 *e-mail of contributors*: federica.bertolotti@uninsubria.it, antonella.guagliardi@ic.cnr.it
 
-*License:* GPL-3.0 – Please, acknowledge use of this work with the apropiate citation.
+*License:* GPL-3.0 – Please, acknowledge use of this work with the appropriate citation.
 
-*Preprint on ChemRxiv*: https://doi.org/10.26434/chemrxiv-2023-127s9
+*Preprint on ChemRxiv*: https://doi.org/10.26434/chemrxiv-2023-127s9<br/>
 *Repo citation:* you can find it on the righ bar under "Cite this repository" section.

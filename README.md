@@ -65,15 +65,6 @@ Any line beginning with `#` is automatically skipped by the program.
 `--help`<br/>
 Shows the automatic help topic.
 
-### Suggestions and limits on the data 
-The model 
-
-_section under preparation_
-tipo Qmin 4, 2th sarebbe 70?
-noise mglio se basso
-solventi?
-...
-
 
 ## Attribution
 *Authors:*

@@ -27,7 +27,7 @@ In order to run the program, you need to have installed:
  * some python modules: numpy, pandas, matplotlib, scikit-learn
  * TensorFlow: version 2.11.0 or higher (as backing for the Keras module) (\*)
 
-If needed, the modules named in the last two points can be installed via `python -m pip install -U module_name`  (\*)
+If needed, the modules named in the last two points can be installed via `python -m pip install -U module_name`
 
 (\*) Please note that both CPU and GPU installation are available (and supported), but
 have different installation procedures. Refer to the official TensorFlow documentation
@@ -74,13 +74,14 @@ Within each script, one can find the various augmentation and training parameter
 which can be modified by the user if needed. These parameters include, but are not limited
 to: dilution and noise levels, Q-range limits, training speed and duration, CNN architecture.<br/>
 If you wish to create your own database and train your own model, just open a terminal, 
-go to the folder where this repository is cloned and type
+go to the folder where this repository has been cloned and type:
 ```
-python 1_augment_database.py path_to_ypur_simulation_folder && python 2_train_aCNN.py
+python 1_augment_database.py path_to_your_simulation_folder && python 2_train_aCNN.py
 ```
-where `path_to_ypur_simulation_folder` is the path to the folder containing your starting diffractograms
+where `path_to_your_simulation_folder` is the path to the folder containing your starting diffractograms
 that will be augmented and then used as basis for the model trainig. 
-We recommend to simulate these starting diffractograms using the dedicated software _Debussy_, 
+We recommend to simulate these starting diffractograms using the dedicated software
+<a href="https://debyeusersystem.github.io/">_Debussy_</a>, 
 developed in our To.Sca.Lab group @University of Insubria (Italy).
 
 

@@ -10,7 +10,6 @@ import subprocess
 import numpy as np
 from utils import paths
 from utils import tools
-from subprocess import getoutput
 from random import choice as random_choice
 
 
@@ -35,6 +34,18 @@ def get_parameter_from_fname(file_name: str, tag: str) -> str:
         if i.lower().startswith(tag.lower()):
             return i[tag_length:]
     raise Exception("!!! No label found. Please re-define relative tag. !!!")
+
+
+def parse_args():
+    """
+    Parses input file(s) from command line
+    """
+    parser = argparse.ArgumentParser()
+    parser.add_argument('simulation_folder',
+                        help='Full path of the folder containing the diffractograms you wish to augment.')
+
+    arg = parser.parse_args()
+    return arg
 
 
 # --------------------------------------------
@@ -64,11 +75,11 @@ start = time.time()  # time check
 #  PATHS AND FOLDERS MANAGEMENT
 # --------------------------------------------
 # set external programs paths
-debussy = paths.debussy_PATH
 noisymonocol = paths.noisy_PATH
 
 # folder containing all the .cal files = simulated patterns generated with Debussy
-cal_files_dir = os.path.join(paths.data_dir, 'cal')
+args = parse_args()
+cal_files_dir = args.simulation_folder
 
 # create and define subfolders
 diluted_files_dir = os.path.join(paths.data_dir, 'dilutions')

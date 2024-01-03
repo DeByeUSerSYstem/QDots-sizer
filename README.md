@@ -4,8 +4,6 @@ This is a python package for automated size classification of semiconductor Quan
 from Wide-Angle x-ray Total Scattering pattern, using a light all-convolutional deep
 learning model trained with physics-informed augmented data.
 
-The starting diffractograms could be simulated using the dedicated software _Debussy_, 
-developed in the To.Sca.Lab group @University of Insubria (Italy).
 
 ### Supported data type
  * Sample state: colloidal and dry
@@ -81,7 +79,9 @@ go to the folder where this repository is cloned and type
 python 1_augment_database.py path_to_ypur_simulation_folder && python 2_train_aCNN.py
 ```
 where `path_to_ypur_simulation_folder` is the path to the folder containing your starting diffractograms
-that will be augmented and then used as basis for the model trainig.
+that will be augmented and then used as basis for the model trainig. 
+We recommend to simulate these starting diffractograms using the dedicated software _Debussy_, 
+developed in our To.Sca.Lab group @University of Insubria (Italy).
 
 
 ## Attribution

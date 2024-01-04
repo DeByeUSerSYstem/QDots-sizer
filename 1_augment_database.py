@@ -55,10 +55,10 @@ def parse_args():
 # """
 # *** DISCLAIMER ***
 
-# This script assumes that there already exists a folder named 'cal' in DATA
-# (i.e.: main_folder/DATA/cal) where the user has a collection of .cal files,
-# namely diffractograms previously simulated with Debussy and selected to be
-# the basis of the database and thus be subjected to augmentation.
+# This script assumes that there already exists a folder where the user has
+# a collection of .cal files, namely diffractograms previously simulated with
+# Debussy and selected to be the basis of the database and thus be subjected
+# to augmentation.
 
 # The augmentation procedure follows:
 # """

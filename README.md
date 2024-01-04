@@ -1,13 +1,13 @@
 # QDots-sizer
 
-This is a python package for automated size classification of semiconductor Quantum Dots
-from Wide-Angle x-ray Total Scattering pattern, using a light all-convolutional deep
+This is a python package for automated size classification of nanocrystals and quantum dots
+from  x-ray scattering data, using a light all-convolutional deep
 learning model trained with physics-informed augmented data.
 
 
 ### Supported data type
  * Sample state: colloidal and dry
- * Angular range: wide (synchrotron-like) and narrow (laboratory machine-like)
+ * Angular range: custom
 
 
 ## Installation
@@ -24,7 +24,7 @@ Please download this Debussy utility from `https://github.com/DeByeUSerSYstem`. 
 In order to run the program, you need to have installed:
 
  * Python (version 3.8 or higher) and pip (version 19.0 or higher) – limits imposed by TensorFlow installation
- * some python modules: numpy, pandas, matplotlib, scikit-learn
+ * Python modules: numpy, pandas, matplotlib, scikit-learn
  * TensorFlow: version 2.11.0 or higher (as backing for the Keras module) (\*)
 
 If needed, the modules named in the last two points can be installed via `python -m pip install -U module_name`
@@ -69,18 +69,18 @@ Any line beginning with `#` is automatically skipped by the program.
 Shows the automatic help topic.
 
 ### Data Augmentation and Network Training
-Two separate scripts can be found, each dedicated to one task.
+Two separate scripts can be found, one for each task.
 Within each script, one can find the various augmentation and training parameters, 
 which can be modified by the user if needed. These parameters include, but are not limited
-to: dilution and noise levels, Q-range limits, training speed and duration, CNN architecture.<br/>
+to: nanocrystals/solvent ratio and noise levels, Q-range limits, training speed and duration, CNN architecture.<br/>
 If you wish to create your own database and train your own model, just open a terminal, 
 go to the folder where this repository has been cloned and type:
 ```
 python 1_augment_database.py path_to_your_simulation_folder && python 2_train_aCNN.py
 ```
-where `path_to_your_simulation_folder` is the path to the folder containing your starting diffractograms
-that will be augmented and then used as basis for the model trainig. 
-We recommend to simulate these starting diffractograms using the dedicated software
+where `path_to_your_simulation_folder` is the path to the folder containing your initial diffractograms
+that will be augmented and then used as dataset for the model trainig. 
+We recommend to simulate these initial diffractograms using the dedicated software
 <a href="https://debyeusersystem.github.io/">_Debussy_</a>, 
 developed in our To.Sca.Lab group @University of Insubria (Italy).
 

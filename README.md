@@ -1,6 +1,6 @@
 # QDots-sizer
 
-This is a python package for automated size classification of nanocrystals and quantum dots
+This is a python package for automated size classification of quantum dots (with average diameter within 10 nm)
 from  x-ray scattering data, using a light all-convolutional deep
 learning model trained with physics-informed augmented data.
 

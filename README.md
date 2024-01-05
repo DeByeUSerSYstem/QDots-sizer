@@ -40,9 +40,9 @@ have different installation procedures. Refer to the official TensorFlow documen
 A pre-trained model for PbS is available in the repository. To classify any pattern
 of this material, go into the folder where you cloned the repository and run the following:
 ```
-python Predict_datum_by_name.py path_to_diffractogram -l collection_wavelength
+python Predict_datum_by_name.py path_to_diffractogram -l wavelength
 ```
-The process should take just a few seconds. Both CPU and GPU can be used, depending
+where the wavelength is given in Å. The process should take just a few seconds. Both CPU and GPU can be used, depending
 on the TensorFlow version you have installed.
 
 At the end of the procedure, you will find a new file.xy with the predicted size in the file name and

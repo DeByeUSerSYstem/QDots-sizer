@@ -4,7 +4,7 @@ import os
 
 home_dir = os.environ['HOME']
 debussy_PATH = os.path.join(home_dir, 'DEBUSSY_V2.2_2019/bin/')
-noisy_PATH = os.path.join(home_dir, 'noisy/noisymonocol')
+noisy_PATH = os.path.join(home_dir, 'noisy/bin/noisy')
 
 # project_dir = '/home/lucia/ML_PhD_projects/Dimension_recognition'
 # project_dir = os.path.dirname(os.getcwd())

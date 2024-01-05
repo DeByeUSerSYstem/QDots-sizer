@@ -56,7 +56,7 @@ Data have to be in a two-columns xy file structure: the first column containing 
 the second column the measured intensity.
 
 _Flags_<br/>
-`-l wavelenght`: optional<br/>
+`-l wavelength`: optional<br/>
 Wavelength used during data collection, in Å<br/> 
 If omitted, the algorithm will use the Kα1-Cu (λ = 1.5406 Å) by default.
 

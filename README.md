@@ -42,7 +42,7 @@ of this material, go into the folder where you cloned the repository and run the
 ```
 python Predict_datum_by_name.py path_to_diffractogram -l wavelength
 ```
-where the wavelength is given in Å. The process should take just a few seconds. Both CPU and GPU can be used, depending
+The process should take just a few seconds. Both CPU and GPU can be used, depending
 on the TensorFlow version you have installed.
 
 At the end of the procedure, you will find a new file.xy with the predicted size in the file name and
@@ -50,13 +50,13 @@ containing your pattern as the the algorithm sees it. You will also be presented
 of saving a plot of this pattern.
 
 _Argument_<br/>
-`path_to_diffractogram`: compulsory<br/>
+`path_to_diffractogram`: mandatory<br/>
 Relative of Full path of the diffractogram you wish to have a size prediction on.<br/>
 Data have to be in a two-columns xy file structure: the first column containing 2θ angles,
 the second column the measured intensity.
 
 _Flags_<br/>
-`-l x.xxx`: optional<br/>
+`-l wavelenght`: optional<br/>
 Wavelength used during data collection, in Å<br/> 
 If omitted, the algorithm will use the Kα1-Cu (λ = 1.5406 Å) by default.
 

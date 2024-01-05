@@ -17,7 +17,7 @@ Just clone the current repository by typing in a terminal:
 git clone https://github.com/DeByeUSerSYstem/QDots-sizer.git
 ```
 ### noisy
-Please download this Debussy utility from `https://github.com/DeByeUSerSYstem`. `!`
+Please download this utility from `https://github.com/SineBell/noisy` and follow the relative installation guide.
 
 
 ## Pre-requisites

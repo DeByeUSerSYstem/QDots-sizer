@@ -238,6 +238,7 @@ for lvl in noise_levels:
         if f'_noisy' in file:
             file_path = os.path.join(diluted_files_dir, file)
             root, extension = os.path.splitext(file)
+            # add noise evel in the file name
             noise_name = root + str(lvl) + extension
             noise_path = os.path.join(diluted_files_dir, noise_name)
             os.rename(file_path, noise_path)

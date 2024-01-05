@@ -1,6 +1,9 @@
-In this folder the full dataset used for training the CNN is provided.</br>
-Due to the large size of the files, these have been grouped in 51 folder and compressed as tar.gz files. </br>
-To extract all tar.gz in a folder please use the bash script provided as follows:</br>
-            sh extract_files.sh folder_path</br>
+### Training set
+In this folder the full dataset of Debussy simulation + physics based augmentation used for training/validation/testing of the CNN is provided.</br>
+Due to GitHub limitations on the size of the files, these have been grouped in 51 folder and compressed as tar.gz files. </br>
+To extract all tar.gz in a folder please launch the bash script provided, as follows:</br>
+```
+sh extract_files.sh folder_path
+```  
 where folder_path is the path of the folder containing the tar.gz files. </br>
 Once the files have beed extracted be aware of the large size of the generated folder (about 8 GB).

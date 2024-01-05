@@ -1,4 +1,4 @@
-In this folder the full dataset used for training the CNN is provided.
+In this folder the full dataset used for training the CNN is provided.</br>
 Due to the large size of the files, these have been grouped in 51 folder and compressed as tar.gz files. 
 To extract all tar.gz in a folder please use the bash script provided as follows:
               sh extract_files.sh folder_path

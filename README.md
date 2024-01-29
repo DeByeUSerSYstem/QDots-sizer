@@ -72,7 +72,8 @@ Shows the automatic help topic.
 Two separate scripts can be found, one for each task.
 Within each script, one can find the various augmentation and training parameters, 
 which can be modified by the user if needed. These parameters include, but are not limited
-to: nanocrystals/solvent ratio and noise levels, Q-range limits, training speed and duration, CNN architecture.<br/>
+to: nanocrystals/solvent ratio and noise levels, Q-range limits, training speed and duration, CNN architecture.
+
 If you wish to create your own database and train your own model, just open a terminal, 
 go to the folder where this repository has been cloned and type:
 ```
@@ -83,6 +84,12 @@ that will be augmented and then used as dataset for the model trainig.
 We recommend to simulate these initial diffractograms using the dedicated software
 <a href="https://debyeusersystem.github.io/">_Debussy_</a>, 
 developed in our To.Sca.Lab group @University of Insubria (Italy).
+
+If, instead, you wish to use the already augmented dataset we have made availble, then open a terminal and type:
+* `cd data_training/`: to go into the _data_training_ folder (a more detailed README can be found here, if you wish);
+* `sh extract_files.sh`: this will extract all the diffractogram, making them ready for the training sctipt to use;
+* `cd ..`: to go back one level, to the main project folder;
+* `python 2_train_aCNN.py`: to train the algorithm.
 
 
 ## Attribution

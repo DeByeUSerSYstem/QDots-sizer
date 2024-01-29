@@ -335,7 +335,7 @@ reset_default_graph()
 print('Training for Q-step= 0.5 nm, Q-range = Q14, with all solvents.')
 
 # Set reference folder, and folders reqired for diagnostics storage
-reference_folder = os.path.join(paths.data_dir, 'results')
+reference_folder = os.path.join(paths.project_dir, 'results')
 tools.set_required_subfolders(reference_folder, 'training_logs', 'models',
                               'learning_curves', 'Confusion_Matrix',
                               'error_Histograms', 'Summary_of_predictions')
@@ -347,9 +347,9 @@ tools.set_required_subfolders(reference_folder, 'training_logs', 'models',
 
 # Load data and relative desired labels
 print('=== Loading data ===')
-X = np.load(os.path.join(reference_folder, 'data_matrix.npy'))
-y = np.load(os.path.join(reference_folder, 'labels.npy'))
-z = np.load(os.path.join(reference_folder, 'fnames.npy'))
+X = np.load(os.path.join(paths.data_dir, 'data_matrix.npy'))
+y = np.load(os.path.join(paths.data_dir, 'labels.npy'))
+z = np.load(os.path.join(paths.data_dir, 'fnames.npy'))
 
 # create encoders
 label_encoder, one_hot_encoder = create_encoders(y)

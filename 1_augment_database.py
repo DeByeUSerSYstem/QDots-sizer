@@ -84,9 +84,8 @@ cal_files_dir = args.simulation_folder
 # create and define subfolders
 diluted_files_dir = os.path.join(paths.data_dir, 'dilutions')
 noised_files_dir = os.path.join(paths.data_dir, 'final_noised')
-results_dir = os.path.join(paths.data_dir, 'results')
 
-subfolders = [diluted_files_dir, noised_files_dir, results_dir]
+subfolders = [diluted_files_dir, noised_files_dir]
 for subfolder in subfolders:
     tools.initialise_folder(subfolder)
 
@@ -129,8 +128,8 @@ print('Step size: {} Q ({:.4f} 20) --> {} points.'
       .format(q_step, tools.q2tt(q_step, simu_wavelength), new_length))
 
 # save it for reference(it will always be the same)
-x_final_file_path = os.path.join(paths.data_dir, f'x-norm_Q15')
-np.save(x_final_file_path, new_x)
+x_final_file_path = os.path.join(paths.data_dir, f'x-norm_Q15.txt')
+np.savetxt(x_final_file_path, new_x, fmt='%.5f')
 
 
 # ======= Solvent(s) management =======
@@ -284,9 +283,9 @@ assert len(all_files) == len(os.listdir(noised_files_dir))
 # Saving matrices as compressed numpy .npy files
 print('=== Saving matrix ===')
 data = np.asarray(all_files)
-np.save(os.path.join(results_dir, f'data_matrix'), data)
-np.save(os.path.join(results_dir, f'labels'), labels_avg)
-np.save(os.path.join(results_dir, f'fnames'), all_names)
+np.save(os.path.join(paths.data_dir, f'data_matrix'), data)
+np.save(os.path.join(paths.data_dir, f'labels'), labels_avg)
+np.save(os.path.join(paths.data_dir, f'fnames'), all_names)
 
 # Feedback
 end = time.time()  # time check

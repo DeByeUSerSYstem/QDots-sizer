@@ -100,10 +100,10 @@ and Antonella Guagliardi.
 
 *Version:* 1.0 / October, 2023
 
-*e-mail of repo owner*: lallara@uninsubria.it, lucia.allara@gmail.com<br/>
-*e-mail of contributors*: federica.bertolotti@uninsubria.it, antonella.guagliardi@ic.cnr.it
+*repo owner e-mail*: lallara@uninsubria.it, lucia.allara@gmail.com<br/>
+*contributors e-mail*: federica.bertolotti@uninsubria.it, antonella.guagliardi@ic.cnr.it
 
 *License:* GPL-3.0 – Please, acknowledge use of this work with the appropriate citation.
 
 *Citation:* you can find it on the righ bar under the *"Cite this repository"* section.<br/>
-*Preprint on ChemRxiv*: https://doi.org/10.26434/chemrxiv-2023-127s9
+*Full paper OpenAccess*: https://doi.org/10.1038/s41524-024-01241-6

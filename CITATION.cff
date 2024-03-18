@@ -13,14 +13,14 @@ authors:
   - given-names: Federica
     family-names: Bertolotti
     email: federica.bertolotti@uninsubria.it
-    orcid: 'https://orcid.org/0000-0002-6001-9040'
     affiliation: University of Insubria (IT)
+    orcid: 'https://orcid.org/0000-0002-6001-9040'
   - given-names: Antonietta
     family-names: Guagliardi
     email: antonella.guagliardi@ic.cnr.it
     affiliation: National Research Council - Crystallography Institute
     orcid: 'https://orcid.org/0000-0001-6390-2114'
-doi: '10.26434/chemrxiv-2023-127s9'
+doi: '10.1038/s41524-024-01241-6'
 repository-code: 'https://github.com/DeByeUSerSYstem/QDots-sizer'
 abstract: >-
   Deep Learning model for the automated size classification
